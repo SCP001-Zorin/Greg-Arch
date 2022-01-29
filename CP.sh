@@ -10,6 +10,6 @@ cp -r neofetch/ ~/.config
 cp -r qtile/ ~/.config 
  
 #Wallpaper
-mkdir $HOME .Wallpaper
+sudo mkdir $HOME .Wallpaper
 
-cp -r Arch-Linux-Wallpaper-4K.png ~/.Wallpapers
+sudo cp -r Arch-Linux-Wallpaper-4K.png ~/.Wallpapers
