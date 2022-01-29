@@ -12,6 +12,9 @@ sudo locale-gen us
 #Python
 sudo pacman -S python-pip
 
+#Psutil
+pip install psutil
+
 # Lightdm
 sh sysctl.sh
 
