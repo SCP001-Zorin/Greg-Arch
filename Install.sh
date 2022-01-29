@@ -19,7 +19,7 @@ pip install psutil
 sh sysctl.sh
 
 #Lightdm Theme
-sh Lightdm Aether.sh
+sh Lightdm-Aether.sh
 
 #Ranger Devicons
 sh Ranger-Devicons.sh
