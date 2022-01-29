@@ -15,6 +15,9 @@ sudo pacman -S scrot
 #Battery-Icon
 sudo pacman -S cbatticon
 
+#Disk-Mounter
+sudo pacman -S udiskie
+
 #Red-Shift
 sudo pacman -S redshift
 
