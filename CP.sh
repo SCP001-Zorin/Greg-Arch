@@ -7,7 +7,10 @@ cp -r alacritty/ ~/.config
 cp -r neofetch/ ~/.config  
  
 #qtile Configurations
-cp -r qtile/ ~/.config 
+cp -r qtile/ ~/.config
+
+#Rofi
+cp -r rofi ~/.donfig
  
 #Wallpaper
 sudo mkdir $HOME .Wallpaper
