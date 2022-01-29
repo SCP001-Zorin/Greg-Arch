@@ -1,31 +1,31 @@
 #!/bin/bash
 
 #Syatem Unit update
-sudo pacman -Sy
+sudo pacman -Sy --noconfirm
 
 #change languege language to US AMERICA
 sudo locale-gen us
 
 #Neofetch
-sudo pacman -S neofetch
+sudo pacman -S neofetch --noconfirm
 
 #Screenshot
-sudo pacman -S scrot
+sudo pacman -S scrot --noconfirm
 
 #Battery-Icon
-sudo pacman -S cbatticon
+sudo pacman -S cbatticon --noconfirm
 
 #Disk-Mounter
-sudo pacman -S udiskie
+sudo pacman -S udiskie --noconfirm
 
 #Red-Shift
-sudo pacman -S redshift
+sudo pacman -S redshift --noconfirm
 
 #Qtile files
-sudo pacman -S pacman-contrib
+sudo pacman -S pacman-contrib --noconfirm
 
 #Python
-sudo pacman -S python-pip
+sudo pacman -S python-pip --noconfirm
 
 #Psutil
 pip install psutil
