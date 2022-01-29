@@ -9,6 +9,9 @@ sudo locale-gen us
 #Neofetch
 sudo pacman -S neofetch --noconfirm
 
+#Picom
+sudo pacman -S picom --noconfirm
+
 #Screenshot
 sudo pacman -S scrot --noconfirm
 
