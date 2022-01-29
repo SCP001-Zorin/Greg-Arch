@@ -3,6 +3,9 @@
 #Syatem Unit update
 sudo pacman -Sy
 
+#Yay Installer
+sh AUR.sh
+
 #change languege language to US AMERICA
 sudo locale-gen us
 
