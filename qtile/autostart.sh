@@ -2,9 +2,12 @@
 
 # systray battery icon
 cbatticon -u 5 &
+
 # systray volume
 volumeicon &
-# picom
-piocm &
+
+#Launch picom
+picom -b & 
+
 # Feh
-feh --bg-scale /home/zorin/.Wallpapers/Arch-Linux-Wallpaper-4K.png
+feh --bg-scale /home/krennic/.Wallpapers/Arch-Linux-Wallpaper-4K.png
