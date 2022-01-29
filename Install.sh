@@ -6,6 +6,9 @@ sudo pacman -Sy
 #change languege language to US AMERICA
 sudo locale-gen us
 
+#Neofetch
+sudo pacman -S neofetch
+
 #Python
 sudo pacman -S python-pip
 
