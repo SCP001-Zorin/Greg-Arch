@@ -12,6 +12,9 @@ sudo pacman -S neofetch
 #Screenshot
 sudo pacman -S scrot
 
+#Battery-Icon
+sudo pacman -S cbatticon
+
 #Red-Shift
 sudo pacman -S redshift
 
