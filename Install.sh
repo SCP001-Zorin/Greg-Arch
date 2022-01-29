@@ -2,6 +2,7 @@
 
 #Syatem Unit update
 sudo pacman -Sy
+
 #change languege language to US AMERICA
 sudo locale-gen us
 
