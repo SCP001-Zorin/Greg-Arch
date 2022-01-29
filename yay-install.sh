@@ -1,7 +1,13 @@
 #!/bin/bash
+sudo pacman -Syu
+mkdir /tmp/yay
+cd /tmp/yay
+curl -OJ 'https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=yay'
+makepkg -si
+cd
+rm -rf /tmp/yay
+yay --version
 
-#Yay if not installed
-sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 #Nerd-Font
 yay -S nerd-fonts-ubuntu-mono
