@@ -9,6 +9,9 @@ sh AUR.sh
 #change languege language to US AMERICA
 sudo locale-gen us
 
+#Python
+sudo pacman -S python-pip
+
 # Lightdm
 sh sysctl.sh
 
