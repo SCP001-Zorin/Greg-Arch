@@ -9,8 +9,15 @@ sudo locale-gen us
 #Neofetch
 sudo pacman -S neofetch
 
+#Screenshot
+sudo pacman -S scrot
+
+#Red-Shift
+sudo pacman -S redshift
+
 #Qtile files
 sudo pacman -S pacman-contrib
+
 #Python
 sudo pacman -S python-pip
 
