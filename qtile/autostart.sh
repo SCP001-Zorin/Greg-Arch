@@ -10,4 +10,7 @@ cbatticon -u 5 &
 volumeicon &
 
 # Feh
-feh --bg-scale /home/krennic/.Wallpapers/Arch-Linux-Wallpaper-4K.png
+feh --bg-scale /home/zorin/.Wallpapers/Arch-Linux-Wallpaper-4K.png
+
+#Authentication Agent
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
