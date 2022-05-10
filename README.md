@@ -1,2 +1,2 @@
-# Greg-Arch GNU/Linux
+# Zorin | Cortex
 Arch-linux Qtile configuration 
